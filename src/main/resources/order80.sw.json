@@ -1,0 +1,976 @@
+{
+  "id": "order80",
+  "version": "1.0",
+  "specVersion": "0.8",
+  "name": "Order 80 Tasks",
+  "start": "task-01",
+  "functions": [
+    {
+      "name": "passThrough",
+      "type": "custom",
+      "operation": "service:java:org.acme.OrderFunctions::passThrough"
+    }
+  ],
+  "states": [
+    {
+      "name": "task-01",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-02"
+    },
+    {
+      "name": "task-02",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-03"
+    },
+    {
+      "name": "task-03",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-04"
+    },
+    {
+      "name": "task-04",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-05"
+    },
+    {
+      "name": "task-05",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-06"
+    },
+    {
+      "name": "task-06",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-07"
+    },
+    {
+      "name": "task-07",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-08"
+    },
+    {
+      "name": "task-08",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-09"
+    },
+    {
+      "name": "task-09",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-10"
+    },
+    {
+      "name": "task-10",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-11"
+    },
+    {
+      "name": "task-11",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-12"
+    },
+    {
+      "name": "task-12",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-13"
+    },
+    {
+      "name": "task-13",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-14"
+    },
+    {
+      "name": "task-14",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-15"
+    },
+    {
+      "name": "task-15",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-16"
+    },
+    {
+      "name": "task-16",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-17"
+    },
+    {
+      "name": "task-17",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-18"
+    },
+    {
+      "name": "task-18",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-19"
+    },
+    {
+      "name": "task-19",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-20"
+    },
+    {
+      "name": "task-20",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-21"
+    },
+    {
+      "name": "task-21",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-22"
+    },
+    {
+      "name": "task-22",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-23"
+    },
+    {
+      "name": "task-23",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-24"
+    },
+    {
+      "name": "task-24",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-25"
+    },
+    {
+      "name": "task-25",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-26"
+    },
+    {
+      "name": "task-26",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-27"
+    },
+    {
+      "name": "task-27",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-28"
+    },
+    {
+      "name": "task-28",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-29"
+    },
+    {
+      "name": "task-29",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-30"
+    },
+    {
+      "name": "task-30",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-31"
+    },
+    {
+      "name": "task-31",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-32"
+    },
+    {
+      "name": "task-32",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-33"
+    },
+    {
+      "name": "task-33",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-34"
+    },
+    {
+      "name": "task-34",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-35"
+    },
+    {
+      "name": "task-35",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-36"
+    },
+    {
+      "name": "task-36",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-37"
+    },
+    {
+      "name": "task-37",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-38"
+    },
+    {
+      "name": "task-38",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-39"
+    },
+    {
+      "name": "task-39",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-40"
+    },
+    {
+      "name": "task-40",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-41"
+    },
+    {
+      "name": "task-41",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-42"
+    },
+    {
+      "name": "task-42",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-43"
+    },
+    {
+      "name": "task-43",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-44"
+    },
+    {
+      "name": "task-44",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-45"
+    },
+    {
+      "name": "task-45",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-46"
+    },
+    {
+      "name": "task-46",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-47"
+    },
+    {
+      "name": "task-47",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-48"
+    },
+    {
+      "name": "task-48",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-49"
+    },
+    {
+      "name": "task-49",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-50"
+    },
+    {
+      "name": "task-50",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-51"
+    },
+    {
+      "name": "task-51",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-52"
+    },
+    {
+      "name": "task-52",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-53"
+    },
+    {
+      "name": "task-53",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-54"
+    },
+    {
+      "name": "task-54",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-55"
+    },
+    {
+      "name": "task-55",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-56"
+    },
+    {
+      "name": "task-56",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-57"
+    },
+    {
+      "name": "task-57",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-58"
+    },
+    {
+      "name": "task-58",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-59"
+    },
+    {
+      "name": "task-59",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-60"
+    },
+    {
+      "name": "task-60",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-61"
+    },
+    {
+      "name": "task-61",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-62"
+    },
+    {
+      "name": "task-62",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-63"
+    },
+    {
+      "name": "task-63",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-64"
+    },
+    {
+      "name": "task-64",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-65"
+    },
+    {
+      "name": "task-65",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-66"
+    },
+    {
+      "name": "task-66",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-67"
+    },
+    {
+      "name": "task-67",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-68"
+    },
+    {
+      "name": "task-68",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-69"
+    },
+    {
+      "name": "task-69",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-70"
+    },
+    {
+      "name": "task-70",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-71"
+    },
+    {
+      "name": "task-71",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-72"
+    },
+    {
+      "name": "task-72",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-73"
+    },
+    {
+      "name": "task-73",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-74"
+    },
+    {
+      "name": "task-74",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-75"
+    },
+    {
+      "name": "task-75",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-76"
+    },
+    {
+      "name": "task-76",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-77"
+    },
+    {
+      "name": "task-77",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-78"
+    },
+    {
+      "name": "task-78",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-79"
+    },
+    {
+      "name": "task-79",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "transition": "task-80"
+    },
+    {
+      "name": "task-80",
+      "type": "operation",
+      "actions": [
+        {
+          "functionRef": {
+            "refName": "passThrough"
+          }
+        }
+      ],
+      "end": true
+    }
+  ]
+}
