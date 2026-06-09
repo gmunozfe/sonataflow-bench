@@ -1,0 +1,69 @@
+{
+  "id": "fork3",
+  "version": "1.0",
+  "specVersion": "0.8",
+  "name": "Fork 3 Subflows",
+  "start": "initialize",
+  "states": [
+    {
+      "name": "initialize",
+      "type": "inject",
+      "data": {
+        "status": "FORK_STARTED_3",
+        "subflowsCount": 3
+      },
+      "transition": "callChild1"
+    },
+    {
+      "name": "callChild1",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction1",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child1 }"
+          }
+        }
+      ],
+      "transition": "callChild2"
+    },
+    {
+      "name": "callChild2",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction2",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child2 }"
+          }
+        }
+      ],
+      "transition": "callChild3"
+    },
+    {
+      "name": "callChild3",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction3",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child3 }"
+          }
+        }
+      ],
+      "transition": "finalize"
+    },
+    {
+      "name": "finalize",
+      "type": "inject",
+      "data": {
+        "status": "COMPLETED_3_SUBFLOWS",
+        "subflowsCount": 3
+      },
+      "end": true
+    }
+  ]
+}

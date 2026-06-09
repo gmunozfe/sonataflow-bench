@@ -11,5 +11,64 @@ services:
     volumes:
       - postgres-data:/var/lib/postgresql/data
 
+  data-index-postgres:
+    image: postgres:17
+    container_name: sonataflow-bench-data-index-postgres
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: dataindex
+      POSTGRES_USER: dataindex
+      POSTGRES_PASSWORD: dataindex
+    volumes:
+      - data-index-postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dataindex -d dataindex"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 5s
+  
+  kafka:
+    image: docker.io/redpandadata/redpanda:latest
+    container_name: sonataflow-bench-kafka
+    command:
+      - redpanda
+      - start
+      - --mode=dev-container
+      - --smp=1
+      - --memory=1G
+      - --reserve-memory=0M
+      - --overprovisioned
+      - --node-id=0
+      - --check=false
+      - --kafka-addr=internal://0.0.0.0:9092,external://0.0.0.0:19092
+      - --advertise-kafka-addr=internal://kafka:9092,external://localhost:19092
+    ports:
+      - "19092:19092"
+      - "9644:9644"
+
+  data-index:
+    image: docker.io/apache/incubator-kie-kogito-data-index-postgresql:10.1.0
+    container_name: sonataflow-bench-data-index
+    depends_on:
+      data-index-postgres:
+        condition: service_healthy
+      kafka:
+        condition: service_started
+    ports:
+      - "8180:8080"
+    environment:
+      KOGITO_DATA_INDEX_QUARKUS_PROFILE: kafka-events-support
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      KOGITO_EVENTS_GROUPING: "true"
+      QUARKUS_DATASOURCE_DB_KIND: postgresql
+      QUARKUS_DATASOURCE_USERNAME: dataindex
+      QUARKUS_DATASOURCE_PASSWORD: dataindex
+      QUARKUS_DATASOURCE_JDBC_URL: jdbc:postgresql://data-index-postgres:5432/dataindex
+
+      QUARKUS_FLYWAY_MIGRATE_AT_START: "true"
+
 volumes:
   postgres-data:
+  data-index-postgres-data:

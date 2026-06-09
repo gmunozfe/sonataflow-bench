@@ -1,0 +1,167 @@
+{
+  "id": "fork10",
+  "version": "1.0",
+  "specVersion": "0.8",
+  "name": "Fork 10 Subflows",
+  "start": "initialize",
+  "states": [
+    {
+      "name": "initialize",
+      "type": "inject",
+      "data": {
+        "status": "FORK_STARTED_10",
+        "subflowsCount": 10
+      },
+      "transition": "callChild1"
+    },
+    {
+      "name": "callChild1",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction1",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child1 }"
+          }
+        }
+      ],
+      "transition": "callChild2"
+    },
+    {
+      "name": "callChild2",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction2",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child2 }"
+          }
+        }
+      ],
+      "transition": "callChild3"
+    },
+    {
+      "name": "callChild3",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction3",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child3 }"
+          }
+        }
+      ],
+      "transition": "callChild4"
+    },
+    {
+      "name": "callChild4",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction4",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child4 }"
+          }
+        }
+      ],
+      "transition": "callChild5"
+    },
+    {
+      "name": "callChild5",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction4",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child5 }"
+          }
+        }
+      ],
+      "transition": "callChild6"
+    },
+    {
+      "name": "callChild6",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction6",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child6 }"
+          }
+        }
+      ],
+      "transition": "callChild7"
+    },
+    {
+      "name": "callChild7",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction7",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child7 }"
+          }
+        }
+      ],
+      "transition": "callChild8"
+    },
+    {
+      "name": "callChild8",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction8",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child8 }"
+          }
+        }
+      ],
+      "transition": "callChild9"
+    },
+    {
+      "name": "callChild9",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction9",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child9 }"
+          }
+        }
+      ],
+      "transition": "callChild10"
+    },
+    {
+      "name": "callChild10",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction10",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child10 }"
+          }
+        }
+      ],
+      "transition": "finalize"
+    },
+    {
+      "name": "finalize",
+      "type": "inject",
+      "data": {
+        "status": "COMPLETED_10_SUBFLOWS",
+        "subflowsCount": 10
+      },
+      "end": true
+    }
+  ]
+}

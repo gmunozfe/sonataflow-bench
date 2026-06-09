@@ -1,0 +1,97 @@
+{
+  "id": "fork5",
+  "version": "1.0",
+  "specVersion": "0.8",
+  "name": "Fork 5 Subflows",
+  "start": "initialize",
+  "states": [
+    {
+      "name": "initialize",
+      "type": "inject",
+      "data": {
+        "status": "FORK_STARTED_5",
+        "subflowsCount": 5
+      },
+      "transition": "callChild1"
+    },
+    {
+      "name": "callChild1",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction1",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child1 }"
+          }
+        }
+      ],
+      "transition": "callChild2"
+    },
+    {
+      "name": "callChild2",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction2",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child2 }"
+          }
+        }
+      ],
+      "transition": "callChild3"
+    },
+    {
+      "name": "callChild3",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction3",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child3 }"
+          }
+        }
+      ],
+      "transition": "callChild4"
+    },
+    {
+      "name": "callChild4",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction4",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child4 }"
+          }
+        }
+      ],
+      "transition": "callChild5"
+    },
+    {
+      "name": "callChild5",
+      "type": "operation",
+      "actions": [
+        {
+          "name": "callChildAction5",
+          "subFlowRef": "simpleSubflowChild",
+          "actionDataFilter": {
+            "results": "${ .child5 }"
+          }
+        }
+      ],
+      "transition": "finalize"
+    },
+    {
+      "name": "finalize",
+      "type": "inject",
+      "data": {
+        "status": "COMPLETED_5_SUBFLOWS",
+        "subflowsCount": 5
+      },
+      "end": true
+    }
+  ]
+}

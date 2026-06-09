@@ -1,0 +1,260 @@
+16:15:54
+TOTAL-LAG              0
+CURRENT-OFFSET=0 LOG-END-OFFSET=- LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:16:05
+TOTAL-LAG              0
+CURRENT-OFFSET=0 LOG-END-OFFSET=- LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:16:15
+TOTAL-LAG              9
+CURRENT-OFFSET=0 LOG-END-OFFSET=9 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:16:25
+TOTAL-LAG              10
+CURRENT-OFFSET=0 LOG-END-OFFSET=10 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:16:35
+TOTAL-LAG              12
+CURRENT-OFFSET=0 LOG-END-OFFSET=12 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:16:45
+TOTAL-LAG              13
+CURRENT-OFFSET=0 LOG-END-OFFSET=13 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:16:55
+TOTAL-LAG              15
+CURRENT-OFFSET=0 LOG-END-OFFSET=15 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:17:05
+TOTAL-LAG              17
+CURRENT-OFFSET=0 LOG-END-OFFSET=17 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:17:15
+TOTAL-LAG              20
+CURRENT-OFFSET=0 LOG-END-OFFSET=20 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:17:25
+TOTAL-LAG              22
+CURRENT-OFFSET=0 LOG-END-OFFSET=22 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:17:35
+TOTAL-LAG              24
+CURRENT-OFFSET=0 LOG-END-OFFSET=24 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:17:45
+TOTAL-LAG              28
+CURRENT-OFFSET=0 LOG-END-OFFSET=28 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:17:55
+TOTAL-LAG              29
+CURRENT-OFFSET=0 LOG-END-OFFSET=29 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:18:05
+TOTAL-LAG              31
+CURRENT-OFFSET=0 LOG-END-OFFSET=31 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:18:15
+TOTAL-LAG              35
+CURRENT-OFFSET=0 LOG-END-OFFSET=35 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:18:26
+TOTAL-LAG              38
+CURRENT-OFFSET=0 LOG-END-OFFSET=38 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:18:36
+TOTAL-LAG              39
+CURRENT-OFFSET=0 LOG-END-OFFSET=39 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:18:46
+TOTAL-LAG              40
+CURRENT-OFFSET=0 LOG-END-OFFSET=40 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:18:56
+TOTAL-LAG              44
+CURRENT-OFFSET=0 LOG-END-OFFSET=44 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:19:06
+TOTAL-LAG              46
+CURRENT-OFFSET=0 LOG-END-OFFSET=46 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:19:16
+TOTAL-LAG              47
+CURRENT-OFFSET=0 LOG-END-OFFSET=47 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:19:26
+TOTAL-LAG              51
+CURRENT-OFFSET=0 LOG-END-OFFSET=51 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:19:36
+TOTAL-LAG              53
+CURRENT-OFFSET=0 LOG-END-OFFSET=53 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:19:46
+TOTAL-LAG              51
+CURRENT-OFFSET=0 LOG-END-OFFSET=51 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:19:56
+TOTAL-LAG              56
+CURRENT-OFFSET=0 LOG-END-OFFSET=56 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:20:06
+TOTAL-LAG              59
+CURRENT-OFFSET=0 LOG-END-OFFSET=59 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:20:16
+TOTAL-LAG              60
+CURRENT-OFFSET=0 LOG-END-OFFSET=60 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:20:27
+TOTAL-LAG              66
+CURRENT-OFFSET=0 LOG-END-OFFSET=66 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:20:37
+TOTAL-LAG              65
+CURRENT-OFFSET=0 LOG-END-OFFSET=65 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:20:47
+TOTAL-LAG              67
+CURRENT-OFFSET=0 LOG-END-OFFSET=67 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:20:57
+TOTAL-LAG              82
+CURRENT-OFFSET=0 LOG-END-OFFSET=82 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:21:07
+TOTAL-LAG              77
+CURRENT-OFFSET=0 LOG-END-OFFSET=77 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:21:17
+TOTAL-LAG              76
+CURRENT-OFFSET=0 LOG-END-OFFSET=76 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:21:27
+TOTAL-LAG              74
+CURRENT-OFFSET=0 LOG-END-OFFSET=74 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:21:37
+TOTAL-LAG              77
+CURRENT-OFFSET=0 LOG-END-OFFSET=77 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:21:47
+TOTAL-LAG              83
+CURRENT-OFFSET=0 LOG-END-OFFSET=83 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:21:57
+TOTAL-LAG              190
+CURRENT-OFFSET=0 LOG-END-OFFSET=190 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:22:07
+TOTAL-LAG              306
+CURRENT-OFFSET=0 LOG-END-OFFSET=306 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:22:17
+TOTAL-LAG              402
+CURRENT-OFFSET=0 LOG-END-OFFSET=402 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:22:28
+TOTAL-LAG              444
+CURRENT-OFFSET=0 LOG-END-OFFSET=444 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:22:38
+TOTAL-LAG              404
+CURRENT-OFFSET=0 LOG-END-OFFSET=404 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:22:48
+TOTAL-LAG              424
+CURRENT-OFFSET=0 LOG-END-OFFSET=424 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:22:58
+TOTAL-LAG              438
+CURRENT-OFFSET=0 LOG-END-OFFSET=438 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:23:08
+TOTAL-LAG              433
+CURRENT-OFFSET=0 LOG-END-OFFSET=433 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:23:18
+TOTAL-LAG              469
+CURRENT-OFFSET=0 LOG-END-OFFSET=469 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:23:28
+TOTAL-LAG              604
+CURRENT-OFFSET=0 LOG-END-OFFSET=604 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:23:38
+TOTAL-LAG              728
+CURRENT-OFFSET=0 LOG-END-OFFSET=728 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:23:48
+TOTAL-LAG              813
+CURRENT-OFFSET=0 LOG-END-OFFSET=813 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:23:59
+TOTAL-LAG              793
+CURRENT-OFFSET=0 LOG-END-OFFSET=793 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:24:09
+TOTAL-LAG              784
+CURRENT-OFFSET=0 LOG-END-OFFSET=784 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:24:19
+TOTAL-LAG              840
+CURRENT-OFFSET=0 LOG-END-OFFSET=840 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:24:29
+TOTAL-LAG              929
+CURRENT-OFFSET=0 LOG-END-OFFSET=929 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:24:39
+TOTAL-LAG              1050
+CURRENT-OFFSET=0 LOG-END-OFFSET=1050 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:24:49
+TOTAL-LAG              1161
+CURRENT-OFFSET=0 LOG-END-OFFSET=1161 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:24:59
+TOTAL-LAG              1257
+CURRENT-OFFSET=0 LOG-END-OFFSET=1257 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:25:09
+TOTAL-LAG              1311
+CURRENT-OFFSET=0 LOG-END-OFFSET=1311 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:25:19
+TOTAL-LAG              1284
+CURRENT-OFFSET=0 LOG-END-OFFSET=1284 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:25:29
+TOTAL-LAG              1203
+CURRENT-OFFSET=0 LOG-END-OFFSET=1203 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:25:40
+TOTAL-LAG              1077
+CURRENT-OFFSET=0 LOG-END-OFFSET=1077 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:25:50
+TOTAL-LAG              985
+CURRENT-OFFSET=0 LOG-END-OFFSET=985 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:26:00
+TOTAL-LAG              1047
+CURRENT-OFFSET=0 LOG-END-OFFSET=1047 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:26:10
+TOTAL-LAG              889
+CURRENT-OFFSET=0 LOG-END-OFFSET=889 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:26:20
+TOTAL-LAG              113
+CURRENT-OFFSET=0 LOG-END-OFFSET=113 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:26:30
+TOTAL-LAG              0
+CURRENT-OFFSET=0 LOG-END-OFFSET=0 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+
+16:26:40
+TOTAL-LAG              0
+CURRENT-OFFSET=0 LOG-END-OFFSET=0 LAG=kafka-consumer-kogito-processinstances-events-7c5b2476-0be5-4809-bcf6-0e5d78b639e9
+

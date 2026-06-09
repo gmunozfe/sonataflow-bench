@@ -1,0 +1,17 @@
+{
+  "id": "simpleSubflowChild",
+  "version": "1.0",
+  "specVersion": "0.8",
+  "name": "Simple Subflow Child",
+  "start": "completeChild",
+  "states": [
+    {
+      "name": "completeChild",
+      "type": "inject",
+      "data": {
+        "childStatus": "CHILD_COMPLETED"
+      },
+      "end": true
+    }
+  ]
+}
